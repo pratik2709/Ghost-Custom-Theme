@@ -50,3 +50,10 @@
     line-height: 0;
     margin-right: 8px;
 }
+
+/* Add a border to the buttons on hover */
+
+.back-button:hover, .subscribe-button:hover {
+    border-color: rgba(0, 0, 0, 0.8);
+    color: rgb(0, 0, 0) !important;
+}
